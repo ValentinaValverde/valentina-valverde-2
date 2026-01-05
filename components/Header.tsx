@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="py-8 gap-4 flex flex-col justify-center items-center h-[80vh]">
+    <div className="h-[80vh] py-8 gap-4 flex flex-col justify-center items-center">
       <p className="opacity-50">Hey, I&apos;m Val!</p>
 
       <div className="text-4xl text-center w-full md:w-[75%]">

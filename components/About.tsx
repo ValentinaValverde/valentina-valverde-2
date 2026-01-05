@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="h-[60vh] flex flex-col-reverse md:flex-row justify-between items-center md:items-end gap-8">
+    <div className="mb-[175px] flex flex-col-reverse md:flex-row justify-between items-center md:items-end gap-8">
       {/* container */}
       <div className="space-y-8">
         <p className="opacity-50">A bit about me</p>

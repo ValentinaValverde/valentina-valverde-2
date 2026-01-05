@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="relative px-12 md:px-32 lg:px-64 -mx-12 md:mx-[-128px] lg:mx-[-256px] py-32 h-[80vh] bg-[var(--foreground)] ">
+    <div className="h-[80vh] relative px-12 md:px-32 lg:px-64 -mx-12 md:mx-[-128px] lg:mx-[-256px] py-32 bg-[var(--foreground)] ">
       <div className=" flex flex-col gap-6 justify-center items-center">
         <p className="!font-mono text-[var(--background)]">Give me a nudge!</p>
 
