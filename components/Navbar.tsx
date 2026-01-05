@@ -36,7 +36,7 @@ export default function Navbar() {
         <a
           href="/archives"
           className={
-            pathname === '/projects'
+            pathname === '/archives'
               ? 'text-[var(--background)]'
               : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300'
           }
