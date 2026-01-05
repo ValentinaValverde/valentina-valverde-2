@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Bricolage_Grotesque, Public_Sans } from 'next/font/google';
+import Navbar from '@/components/Navbar';
 import './globals.css';
 
 const bricolageGrotesque = Bricolage_Grotesque({
@@ -25,9 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased px-12 md:px-32 lg:px-64`}
+        className={`${bricolageGrotesque.variable} ${publicSans.variable} antialiased `}
       >
-        {children}
+        <Navbar />
+        <div className="px-12 md:px-32 lg:px-64">{children}</div>
       </body>
     </html>
   );
