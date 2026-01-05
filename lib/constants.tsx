@@ -14,3 +14,10 @@ export const featuredWorkData = [
     imageUrl: '/rabbit_hole.png',
   },
 ];
+
+export const listItemsData = [
+  { icon: '', text: 'Valentina Valverde' },
+  { icon: '', text: 'Family & Sandwiches' },
+  { icon: '', text: 'Greenville, SC' },
+  { icon: '', text: 'Typescript, NextJS' },
+];
