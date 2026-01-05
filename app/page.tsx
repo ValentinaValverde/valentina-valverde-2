@@ -3,7 +3,7 @@ import FeaturedWork from '@/components/FeaturedWork';
 
 export default function Home() {
   return (
-    <div>
+    <div className="space-y-24">
       <Header />
       <FeaturedWork />
     </div>

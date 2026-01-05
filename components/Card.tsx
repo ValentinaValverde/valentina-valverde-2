@@ -21,7 +21,7 @@ export default function Card({
         />
 
         <div className="space-y-2 my-4">
-          <p className="text-xs">{title}</p>
+          <p className="text-xs opacity-50">{title}</p>
           <p className="text-xl">{subtitle}</p>
         </div>
       </a>
