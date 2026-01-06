@@ -1,4 +1,16 @@
+'use client';
+
+import { formatTime } from '@/utils/clock';
+import { useState, useEffect } from 'react';
+
 export default function About() {
+  const [now, setNow] = useState<Date>(() => new Date());
+
+  useEffect(() => {
+    const id = window.setInterval(() => setNow(new Date()), 1000);
+    return () => window.clearInterval(id);
+  });
+
   return (
     <div className="mb-[175px] flex flex-col-reverse md:flex-row justify-between items-center md:items-end gap-8">
       {/* container */}
@@ -23,10 +35,11 @@ export default function About() {
           <p className="text-xl !font-mono">Greenville, SC</p>
         </div>
 
+        {/* HERE */}
         <div className="flex items-center gap-2">
           <img src="/icons/sun.svg" className="w-6 h-6" />
 
-          <p className="text-xl !font-mono">Local Time</p>
+          <p className="text-xl !font-mono">{formatTime(now)}</p>
         </div>
 
         <div className="flex items-center gap-2">
