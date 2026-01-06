@@ -41,9 +41,17 @@ export default function About() {
           onMouseLeave={onMouseLeave}
         >
           {isHovering ? (
-            <img src="/icons/excited-person.svg" className="w-6 h-6" />
+            <img
+              src="/icons/excited-person.svg"
+              alt="Person with arms raised icon"
+              className="w-6 h-6"
+            />
           ) : (
-            <img src="/icons/person.svg" className="w-6 h-6" />
+            <img
+              src="/icons/person.svg"
+              alt="Person with arms down icon"
+              className="w-6 h-6"
+            />
           )}
 
           <p className="text-xl !font-mono cursor-default">
@@ -68,7 +76,7 @@ export default function About() {
         </div>
 
         <div className="flex items-center gap-2">
-          <img src="/icons/earth.svg" className="w-6 h-6" />
+          <img src="/icons/earth.svg" alt="Earth icon" className="w-6 h-6" />
 
           <a
             href="https://www.google.com/search?q=greenville%2C+sc"
@@ -82,7 +90,7 @@ export default function About() {
         <TimeItem />
 
         <div className="flex items-center gap-2">
-          <img src="/icons/stack.svg" className="w-6 h-6" />
+          <img src="/icons/stack.svg" alt="Stack icon" className="w-6 h-6" />
 
           <div>
             <span className="text-xl !font-mono cursor-default hover:text-[#9CAFB7] transition duration-300">
@@ -97,8 +105,8 @@ export default function About() {
 
       <img
         src="/valentina.jpg"
+        alt="Valentina's Photo"
         className="w-64 h-64 object-cover object-[center_10%] rounded-full"
-        loading="lazy"
       />
     </div>
   );
