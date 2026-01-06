@@ -66,10 +66,11 @@ export default function About() {
         </div>
       </div>
 
-      {/* <img
+      <img
         src="/valentina.jpg"
         className="w-64 h-64 object-cover object-[center_10%] rounded-full"
-      /> */}
+        loading="lazy"
+      />
     </div>
   );
 }

@@ -40,7 +40,7 @@ export default function Contact() {
       </div>
 
       <div className="w-full p-6 flex items-end justify-center">
-        <p className="absolute bottom-0 text-white !font-mono text-[clamp(2rem,5vw,8rem)] p-6 opacity-25 hover:opacity-100 transition duration-300">
+        <p className="absolute bottom-0 text-white !font-mono text-[clamp(2rem,5vw,8rem)] p-6 opacity-25 hover:opacity-100 transition duration-300 cursor-default">
           sofficestudio@gmail.com
         </p>
       </div>
