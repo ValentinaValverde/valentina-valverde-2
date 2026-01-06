@@ -68,3 +68,33 @@ h3 {
 .link-underline:hover {
   background-size: 100% 2px;
 }
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
+
+.heartbeat {
+  animation: heartbeat 2s infinite;
+  animation-play-state: paused;
+}
+
+.heartbeat:hover {
+  animation-play-state: running;
+}
