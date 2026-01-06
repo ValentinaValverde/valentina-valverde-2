@@ -17,7 +17,8 @@ export default function Card({
         <img
           src={imageUrl}
           alt={title}
-          className="w-full h-[250px] object-cover rounded-sm border border-gray-300"
+          className="w-full h-[250px] object-cover rounded-sm border border-gray-300
+          hover:shadow-md transition duration-300"
         />
 
         <div className="space-y-2 my-4">
