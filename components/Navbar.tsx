@@ -39,8 +39,8 @@ export default function Navbar() {
           href="/"
           className={
             pathname === '/'
-              ? 'text-[var(--background)]'
-              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300'
+              ? 'text-[var(--background)] link-underline'
+              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300 link-underline'
           }
         >
           Home
@@ -50,8 +50,8 @@ export default function Navbar() {
           href="/projects"
           className={
             pathname === '/projects'
-              ? 'text-[var(--background)]'
-              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300'
+              ? 'text-[var(--background)] link-underline'
+              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300 link-underline'
           }
         >
           Projects
@@ -61,8 +61,8 @@ export default function Navbar() {
           href="/archives"
           className={
             pathname === '/archives'
-              ? 'text-[var(--background)]'
-              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300'
+              ? 'text-[var(--background)] link-underline'
+              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300 link-underline'
           }
         >
           Archives

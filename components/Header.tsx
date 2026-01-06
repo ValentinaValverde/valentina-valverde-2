@@ -7,7 +7,15 @@ export default function Header() {
         <span>I&apos;m a </span>
         <span className="text-[#5762D5] !font-mono">Design Engineer </span>
         <span>based in </span>
-        <span className="text-[#7AC74F] !font-mono">Greenville, SC </span>
+        <span className="text-[#7AC74F]  link-underline cursor-pointer">
+          <a
+            href="https://www.google.com/search?q=greenville%2C+sc"
+            target="_blank"
+            className="!font-mono"
+          >
+            Greenville, SC
+          </a>
+        </span>
         <span>helping </span>
         <span className="text-[#9CAFB7] !font-mono">SaaS products </span>
         <span>build cleaner, more accessible interfaces.</span>
