@@ -15,9 +15,28 @@ export const featuredWorkData = [
   },
 ];
 
-export const listItemsData = [
-  { icon: '', text: 'Valentina Valverde' },
-  { icon: '', text: 'Family & Sandwiches' },
-  { icon: '', text: 'Greenville, SC' },
-  { icon: '', text: 'Typescript, NextJS' },
+export const projectData = [
+  {
+    title: 'ChippAI',
+    subtitle:
+      'Redesigned Chipp’s core builder into a cleaner, more intuitive space built for speed and clarity.', // or usability
+    link: 'https://app.chipp.ai/',
+    imageUrl: '/app_builder.png',
+    tags: ['design', 'development'],
+  },
+  {
+    title: 'Rabbit Hole Digital',
+    subtitle:
+      'Reimagined a full music analytics platform with modern UI, responsive layouts, and rebuilt core flows.',
+    link: 'https://rabbitholedigital.netlify.app/',
+    imageUrl: '/rabbit_hole.png',
+    tags: ['design', 'development'],
+  },
+  {
+    title: 'PackPal AI',
+    subtitle: '...',
+    link: 'https://packpal-ai.vercel.app/',
+    imageUrl: '/packpal.png',
+    tags: ['design'],
+  },
 ];
