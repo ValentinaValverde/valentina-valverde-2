@@ -39,5 +39,6 @@ export const projectData = [
     link: 'https://packpal-ai.vercel.app/',
     imageUrl: '/packpal.png',
     tags: ['design'],
+    externalLink: true,
   },
 ];

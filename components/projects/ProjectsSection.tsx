@@ -12,6 +12,7 @@ export default function ProjectsSection() {
             link={data.link}
             imageUrl={data.imageUrl}
             tags={data.tags}
+            externalLink={data?.externalLink}
           />
         </div>
       ))}

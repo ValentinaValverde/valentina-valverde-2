@@ -5,19 +5,21 @@ import Tag from '@/components/projects/Tag';
 export default function ProjectCard({
   imageUrl,
   link,
+  externalLink,
   title,
   subtitle,
   tags,
 }: {
   imageUrl: string;
   link: string;
+  externalLink?: boolean;
   title: string;
   subtitle: string;
   tags: string[];
 }) {
   return (
     <>
-      <a href={link} target="_blank">
+      <a href={link} target={externalLink ? '_blank' : ''}>
         <img
           src={imageUrl}
           alt={title}
