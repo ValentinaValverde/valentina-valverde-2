@@ -50,14 +50,15 @@ export const moreProjectData = [
     logo: '',
     description:
       'ChippAI is a no-code/low-code platform that lets teams build custom AI chat apps and agents based on company knowledge, documents, and workflows. It enables businesses to embed AI chat experiences, monetize AI apps, and manage privacy and sharing in one place.',
-    tags: ['development', 'design'],
+    tags: ['design', 'development'],
     mainImageUrl: '/app_builder.png',
     projectLink: 'https://app.chipp.ai/',
     issue:
       'The existing App Builder was overly complex and lacked a clear organizational structure. Users constantly asked where to find specific features or settings, revealing major gaps in layout clarity and navigation.',
     solution:
       'Led a full redesign of the App Builder, reworking its informational architecture, instituting a cohesive visual system aligned with brand identity, and implementing responsive states and interactive guidance to help new users launch their AI agents faster.',
-    oldImage: '',
+    oldVideo: '',
+    oldImage: '/old_chipp_builder.png',
     oldImageSubtitle: 'Old Chipp Builder',
     challenges: [
       'Mapping out and reconciling the many divergent builder flows (agent creation, document ingestion, deployment/sharing) into a unified, master flow while preserving flexibility for power users.',
@@ -69,7 +70,7 @@ export const moreProjectData = [
       'Post-launch we observed measurable uplift in customer-reported satisfaction, stronger retention of builder users, and multiple customers personally thanking me at in-person events for the improved experience.',
     ],
     // if there's no video, we'll use the new image instead
-    video: '',
+    newVideo: '/videos/new_app_builder.mp4',
     newImage: '',
     newImageSubtitle: 'New Chipp Builder',
     finalQuote:
@@ -79,14 +80,16 @@ export const moreProjectData = [
     title: 'Rabbit Hole Digital',
     slug: 'rabbit-hole-digital',
     logo: '',
-    description: '...',
-    tags: ['development', 'design'],
+    description:
+      'Rabbit Hole Digital was a platform for musicians to track metrics across all social media and content platforms.',
+    tags: ['design', 'development'],
     mainImageUrl: '/rabbit_hole.png',
     projectLink: 'https://rabbitholedigital.netlify.app/',
     issue:
       'The platform wasn’t responsive across mobile and tablet devices, resulting in an inconsistent user experience and limited accessibility.',
     solution:
       'Redesign the platform to be fully responsive, incorporating brand colors, accessibility best practices, and a cohesive visual hierarchy across all screen sizes.',
+    oldVideo: '/videos/old_rabbit_hole_digital.mp4',
     oldImage: '',
     oldImageSubtitle: 'Old Rabbit Hole Platform',
     challenges: [
@@ -98,7 +101,7 @@ export const moreProjectData = [
       'Successfully designed and implemented a responsive platform that reflected the brand’s identity while prioritizing user experience and accessibility. The final prototype showcased a clear improvement in usability and visual consistency across devices.',
     ],
     // if there's no video, we'll use the new image instead
-    video: '',
+    newVideo: '/videos/new_rabbit_hole_digital.mp4',
     newImage: '',
     newImageSubtitle: 'Proposed Rabbit Hole Platform',
     finalQuote:
