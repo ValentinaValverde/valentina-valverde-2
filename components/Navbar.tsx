@@ -46,7 +46,7 @@ export default function Navbar() {
           Home
         </Link>
 
-        <a
+        <Link
           href="/projects"
           className={
             pathname === '/projects'
@@ -55,18 +55,7 @@ export default function Navbar() {
           }
         >
           Projects
-        </a>
-
-        <a
-          href="/archives"
-          className={
-            pathname === '/archives'
-              ? 'text-[var(--background)] link-underline'
-              : 'text-[#9CAFB7] hover:text-[var(--background)] transition duration-300 link-underline'
-          }
-        >
-          Archives
-        </a>
+        </Link>
       </div>
     </div>
   );
