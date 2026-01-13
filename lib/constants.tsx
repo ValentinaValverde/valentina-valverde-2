@@ -35,7 +35,7 @@ export const projectData = [
   {
     title: 'PackPal AI',
     subtitle:
-      'Designed brand and website for an AI image recognition app for moving companies at a 48-hour hackathon. ',
+      'Designed brand and website for an AI image recognition app for moving companies at a 48-hour hackathon, HackUK. ',
     link: 'https://packpal-ai.vercel.app/',
     imageUrl: '/packpal.png',
     tags: ['design'],
