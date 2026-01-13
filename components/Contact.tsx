@@ -30,8 +30,8 @@ export default function Contact() {
           >
             <div className="rounded-sm w-12 h-12 flex justify-center items-center bg-[#5762D5] hover:rotate-50 transition duration-300">
               <img
-                src="/icons/asterisk.svg"
-                alt="Asterisk Icon"
+                src="/icons/toilet-paper.svg"
+                alt="Toilet Paper Icon"
                 className="w-8 h-8 text-white"
               />
             </div>
